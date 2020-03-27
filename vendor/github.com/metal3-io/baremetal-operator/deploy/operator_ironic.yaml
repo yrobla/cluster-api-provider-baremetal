@@ -16,7 +16,7 @@ spec:
       hostNetwork: true
       containers:
         - name: baremetal-operator
-          image: quay.io/metal3-io/baremetal-operator:master
+          image: quay.io/yrobla/baremetal-operator:master
           ports:
             - containerPort: 60000
               name: metrics
